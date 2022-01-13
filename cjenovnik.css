@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.paragrafi{
+    padding-left: 20px;
+    color: white;
+    font-size: 23px;
+}
+.paragrafi1{
+    padding-left: 530px;
+    color: white;
+    font-size: 23px;
+}
+.paragraf{
+    text-align: center;
+    color: #0071c2;
+    font-size: 28px;
+}
+#naslov{
+    text-align: center;
+    color:  #0071c2;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.podpodnaslov{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(0, 113, 194,0.9);
+    margin-top: 45px;
+}
+
+#grid1{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgba(0, 113, 194,0.9)
+}

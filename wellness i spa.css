@@ -1,0 +1,75 @@
+#pozadina{
+    top:0;
+    background-image: url("image/spa1.png");
+    background-size: 100% 605px;
+    width: 100%;
+    height: 605px;
+    display: grid;
+    grid-template-columns: 1000px  auto;
+  
+}
+.uvod{
+    background-color: #0071c2;
+    width: 600px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: white;
+}
+#par{
+    font-size: 26px;
+    text-align: center;
+}
+#title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: #0071c2;
+   
+}
+
+.hlink{
+    padding: 5px  15px 5px 15px;
+    border-radius: 30px;
+    background-color: #0071c2;
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.hlink:hover{
+    background-color: white;
+    color: #0071c2;
+    
+}
+
+#duzina1{
+    padding: 5px  93px 5px 93px;
+}
+#duzina2{
+    padding: 5px  36px 5px 36px;
+}
+#duzina3{
+    padding: 5px  17px 5px 17px;
+}
+#duzina4{
+    padding: 5px  45px 5px 45px;
+}
+
+#padding{
+    margin-top: 100px;
+    margin-right: 100px;
+    
+}
+.padding1{
+    padding-top: 20px ;
+}
+#food{
+    width: 300px;
+}
+
+body{
+    margin: 0;
+}
+

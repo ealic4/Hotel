@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
+        <link rel="stylesheet" href="header.css">
+        <script src="skripta.js"></script>
+        <title>Header</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="grid">
+                <div class="div1">
+                    <img src="image/sunce.PNG" width="25" height="25" />
+                    <button class="dugmadi"><a class="prognoza"
+                            href="https://freemeteo.com.hr/vrijeme/bjelasnica/trenutno-vrijeme/mjesto/?gid=3204010&language=croatian&country=bosnia-and-herzegovina"
+                            target="blank">Vremenska prognoza</a></button>
+                    <hr class="linija1">
+                </div>
+                <div>
+                    <a href="hotel.html"><img src="image/logo.PNG" width="230" height="90" /></a>
+                </div>
+                <div class="div3">
+                    <button id="registracija" class="dugmadi" onclick="OpenWindowRegistration()">Registracija</button>
+                    <button id="login" class="dugmadi" onclick="OpenWindowLogin()">Prijava</button>
+                    <a href="korisnički račun.html"><img src="image/cikica.PNG" width="30" height="25" id="cikica"></a>
+
+                    <hr class="linija2">
+
+
+                </div>
+            </div>
+
+
+            <div class="inline">
+                <div>
+                    <img src="image/ka.PNG" width="30" height="25" class="kucica">
+                    <a class="link" href="hotel.html">Hotel</a>
+                </div>
+                <div><a class="glavnilinkovi" href="sobe i apartmani.html">Sobe & Apartmani</a></div>
+                <div><a class="glavnilinkovi" href="galerija.html">Galerija</a></div>
+                <div><a class="glavnilinkovi" href="ponude.html">Ponude</a></div>
+                <div><a class="glavnilinkovi" href="cjenovnik.html">Cjenovnik</a></div>
+                <div><a class="glavnilinkovi" href="rezervacija.html">Rezervacija</a></div>
+                <div><a class="glavnilinkovi" href="kontakt.html">Kontakt</a></div>
+                <div id="glavnidiv">
+                    <ul id="glavnalista">
+                        <li>
+                            <div class="menudiv">
+                                <div class="menu"></div>
+                                <div class="menu"></div>
+                                <div class="menu"></div>
+                            </div>
+                            <div class="pomocnidiv">
+                                <ul class="pomocneliste">
+                                    <li>
+                                        <div id="bojenje"><a id="linkovi3" href="hrana i piće.html">Hrana & piće</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div id="bojenje"><a id="linkovi3" href="wellness i spa.html">Wellness & spa</a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div id="bojenje"><a id="linkovi3" href="događaji.html">Događaji</a></div>
+                                    </li>
+                                    <li>
+                                        <div id="bojenje"><a id="linkovi3" href="bjelašnica.html">Bjelašnica</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+        </header>
+
+        <!--Login-->
+        <div id="cijelilogin">
+            <div id="prozorlogin">
+                <div id="closelogin" onclick="CloseLogin()">+</div>
+                <h1 id="naslovsaprozora">Prijava</h1>
+                <form>
+                    <input id="unos1" type="email" placeholder="Email" autofocus>
+                    <input id="unos2" type="password" placeholder="Lozinka">
+                    <button id="submitlogin" type="submit">Prijavi se</button><br>
+                    <label><a href="zaboravljena sifra.html" class="forgot" id="textlabele">Zaboravili ste
+                            lozinku?</a></label>
+                </form>
+            </div>
+        </div>
+
+
+        <!--Registracija-->
+        <div id="cijelaregistracija">
+            <div id="prozorregistracija">
+                <div id="closeregistracija" onclick="CloseRegistration()">+</div>
+                <h1 id="naslovsaprozora">Registracija</h1>
+                <form>
+
+                    <input type="text" placeholder="Ime" id="ime">
+                    <input type="text" placeholder="Prezime" id="prezime" />
+                    <input type="email" placeholder="Email" id="email" />
+                    <input type="password" placeholder="Lozinka" id="lozinka" />
+                    <input type="number" placeholder="Broj telefona" id="brojtel" />
+                    <button id="submitregistracija">Registriraj se</button>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

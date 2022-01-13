@@ -1,0 +1,17 @@
+#naslov{
+    color: #0071c2;
+    text-align: center;
+    font-size: 65px;
+    
+}
+
+.still{
+    background-color:  #d9e7fc;
+    margin-top: 70px;
+}
+.paragraf{
+    color: #0071c2;
+    font-size: 28px; 
+    text-align: center;
+    padding-top: 10px;
+}

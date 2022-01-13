@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #0071c2;
+    width: 100%;
+    height: 123px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto 230px auto;
+}
+.inline{
+    display: inline-flex;
+    margin-top: -7px;
+}
+.dugmadi{
+    background-color: #0071c2;
+    border: #0071c2;
+    color: white;
+    font-size: 25px;
+}
+.link,.glavnilinkovi{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.glavnilinkovi{
+    margin-left: 90px;
+}
+.prognoza{
+    text-decoration: none;
+    color: white;
+
+}
+.menu{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    margin-left: 10px;
+    
+}
+.menudiv{
+    padding-top: 5px;
+}
+.div1{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.div3{
+    margin-top: 7px;
+}
+
+#cikica,#login,#registracija{
+    float: right;
+    margin-right: 10px;
+}
+.linija1,.linija2{
+    background-color: white;
+    height: 2px;
+    min-width: 620px;
+}
+.linija2{
+    margin-top: 10px;
+    float: right;
+    min-width: 645px;
+}
+
+/*Padajuci meni*/
+
+#glavnidiv{
+    margin-top: -20px;
+}
+#glavnalista{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.pomocneliste{
+    list-style-type: none;
+    width: 150px;
+
+}
+.pomocnidiv{
+    display: none;
+    width: 200px;
+   
+}
+#glavnidiv ul li:hover .pomocnidiv{
+    display: block;
+    position: absolute;
+    background-color: #0071c2;
+    text-align: left;  
+    margin-left: -145px;
+    
+}
+#glavnidiv ul li:hover .pomocnidiv ul{
+    display: block;
+    margin-top: 10px;
+    
+    
+}
+
+#glavnidiv ul li:hover .pomocnidiv ul li{
+   width: 180px;
+   padding: 5px;
+   border-bottom: 1px solid white;
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+   margin-left: -35px;
+   
+   
+}
+
+#linkovi3{
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+
+   
+}
+
+
+.kucica{
+    margin-left: 5px;
+}
+.bojenje{
+    height: 30px;
+    width: fit-content;
+    
+
+}
+#bojenje:hover{
+    background-color: white;
+    
+    
+}
+#bojenje:hover #linkovi3{
+    color: #0071c2;
+    
+}
+
+/*Login*/
+#cijelilogin{
+    width: 100%;
+    height: 124%;
+    background-color: rgba(0, 0, 0,0.7);
+    
+    top:0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+   
+}
+#prozorlogin{
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    opacity: 1;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+
+}
+#unos1,#unos2,#submitlogin{
+
+    display: block;
+    margin: 5px auto;
+    width: 250px;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    font-size: 17px;
+    padding-left: 20px;
+  
+}
+#closelogin{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+#submitlogin{
+
+   
+    background-color:  #0071c2;
+    color: white;
+    font-size: 20px;
+    width: 275px;
+    border: 2px solid #0071c2;
+    padding-left: -5px;
+  
+}
+#naslovsaprozora{
+    color: #0071c2;
+    font-size: 40px;
+}
+#textlabele{
+    color: #0071c2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Registracija*/
+#cijelaregistracija{
+    width: 100%;
+    height: 124%;
+    background-color: rgba(0, 0, 0,0.7); 
+    top:0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; 
+}
+#prozorregistracija{
+    width: 320px;
+    height: 410px;
+    background-color: white;
+    opacity: 1;
+    text-align: center;
+    margin-top: -100px;
+    padding: 20px;
+    position: relative;
+
+}
+#ime,#prezime,#email,#lozinka,#brojtel,#submitregistracija{
+
+    display: block;
+    margin: 7px auto;
+    width: 250px;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    font-size: 17px;
+    padding-left: 20px;
+  
+}
+
+
+#closeregistracija{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+#submitregistracija{   
+    background-color:  #0071c2;
+    color: white;
+    font-size: 20px;
+    width: 275px;
+    border: 2px solid #0071c2;
+    text-align: center;
+    border-radius: 30px;
+}

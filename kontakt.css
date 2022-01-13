@@ -1,0 +1,75 @@
+#naslov{
+    color: #0071c2;
+    text-align: center;
+    font-size: 50px;
+}
+.paragraf{
+    color: #0071c2;
+    text-align: center;
+    font-size: 30px;
+}
+.bojaa{
+    background-color: #d9e7fc;
+}
+.imeupit,.prezimeupit,.emailupit,.lozinkaupit,.brojtelupit,.submitupit{
+
+    
+    margin: 7px auto;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #d9e7fc;
+    border-radius: 30px;
+    font-size: 17px;
+    padding-left: 20px;
+  
+}
+
+.porukaupit{
+    width: 540px;
+    height: 130px;
+    margin: 7px auto;
+    border: 2px solid #d9e7fc;
+    border-radius: 30px;
+    font-size: 17px; 
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.submitupit{   
+    background-color:  #0071c2;
+    color: white;
+    font-size: 20px;
+    width: 275px;
+    border: 2px solid #0071c2;
+    text-align: center;
+    border-radius: 30px;
+}
+.formaupita{
+    display: block;
+    text-align: center;
+}
+
+/*Ikone*/
+.inlinediv{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.blockdiv{
+    display: block;
+    text-align: center;
+}
+.ikone{
+    color: #0071c2;
+    font-size: 55px;
+    
+  
+}
+.podnaslovi{
+    color: #0071c2;
+    font-size: 20px;
+   
+}
+.paragrafi{
+    color: #0071c2;
+    font-size: 20px;
+}

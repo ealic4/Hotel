@@ -1,0 +1,104 @@
+#pozadina{
+    background-image: url("https://www.hotelbjelasnica.ba/wp-content/uploads/2018/12/planina-bjelasnica-slider.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 590px;
+    background-size: 100% 590px;
+    display: grid;
+    grid-template-columns: auto;
+  
+   
+}
+#title{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 75px;
+   
+}
+.paragraf{
+    font-size: 30px;
+    text-align: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto 50px;
+    background-color: #d9e7fc;
+}
+#inline{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    background-color: #d9e7fc;
+    color: #0071c2;
+    font-size: 40px;
+    padding-left: 140px;
+}
+#inline1{
+    
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 50px;
+        
+    
+}
+.paragrafi{
+    color: #0071c2;
+    font-size: 25px;
+    margin-left: 20px;
+   
+}
+
+#zima{
+    background-image: url("image/zicara.jpg");
+}
+#ljeto{
+    background-image: url("image/pohod.jpg");
+}
+#izlet{
+    background-image: url("image/jezero1.jpg");
+    
+}
+.pozadinaa{
+    background-repeat: no-repeat;
+    width: 507px;
+    height: 450px;
+}
+.hlink{
+    padding: 5px  10px 5px 10px;
+    border-radius: 30px;
+    background-color: #0071c2;;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+.hlink:hover{
+    background-color: white;
+    color: #0071c2;
+    
+}
+.margina{
+    margin-top: 250px;
+    margin-left: 125px;
+}
+
+body{
+    margin: 0;
+}
+
+.mar{
+    color: #0071c2;
+    text-align: center;
+    margin-left: 120px;
+    margin-right:  120px;
+    background-color: rgba(217, 231, 252,0.9);
+   
+    width: fit-content;
+    height: fit-content;
+}
+.pom{
+    margin-left: 100px;
+}

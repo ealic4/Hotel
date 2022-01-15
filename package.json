@@ -1,0 +1,22 @@
+{
+  "name": "novihotel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "skripta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ealic4/NoviHotel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ealic4/NoviHotel/issues"
+  },
+  "homepage": "https://github.com/ealic4/NoviHotel#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
+}

@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
         <link rel="stylesheet" href="rezervacija.css">
+        <link rel="stylesheet" href="izmjeni rezervaciju.css">
         <script src="skripta_login_registracija.js"></script>
         <title>Rezervacija</title>
     </head>
@@ -19,7 +20,7 @@
 
                     <div>
                         <label class="paragrafi">Broj odraslih*</label><br>
-                        <input type="number" value="0" class= "inputi">
+                        <input type="number" value="1" class= "inputi">
                     </div>
 
                     <div>
@@ -33,7 +34,7 @@
                     </div>
                     <div>
                         <label class="paragrafi">Tip smještaja*</label><br>
-                        <select class= "inputi selector">
+                        <select class= "inputi selector" aria-valuenow="Soba Standard">
                             <option>Apartman Studio</option>
                             <option>Apartman Family</option>
                             <option>Soba Comfort</option>
@@ -43,17 +44,17 @@
 
                     <div>
                         <label class="paragrafi">Datum dolaska*</label><br>
-                        <input type="date"class= "inputi">
+                        <input type="date"class= "inputi" value="2022-09-27">
                     </div>
 
                     <div>
                         <label class="paragrafi">Datum odlaska*</label><br>
-                        <input type="date" class= "inputi">
+                        <input type="date" class= "inputi" value="2022-10-30">
                     </div>
 
                     <div>
                         <label class="paragrafi">Napomena</label><br>
-                        <input type="text" class = "napomenatext" >
+                        <input type="text" class = "napomenatext" value="Soba mora biti dovoljno osvjetljena" >
                     </div>
                     <div>
 
@@ -75,26 +76,25 @@
                 <!--Treci-->
                 <div>
                     <div>
-                        <input type="radio">
-                        <label class="paragrafi">Plaćanje pri rezervacij</label>
+                        <input type="radio" checked>
+                        <label class="paragrafi">Plaćanje pri rezervaciji</label>
                     </div>
                     <div class= "inputi">
-                        <input placeholder="0000 0000 0000 0000">
+                        <input placeholder="1234 5678 9123 4567">
                         <input placeholder="MM/GG">
                         <input placeholder="CVV">
                     </div>
                     <div>
                         <label class="paragrafi">Ime vlasnika kartice*</label><br>
-                        <input type="text" class= "inputi">
+                        <input type="text" class= "inputi" value="Elvira Alić">
                     </div>
                     <div>
                         <input type="radio">
                         <label class="paragrafi">Naknadno plaćanje</label>
                     </div>
-
                     <div style="padding-top: 50px; font-size:50">
                         
-                        <label class="paragrafi">Cijena za platiti:     KM</label>
+                        <label class="paragrafi">Cijena za platiti: 400 KM</label>
                     </div>
 
                 </div>
@@ -102,8 +102,8 @@
             </div>
         </div>
         <div class = "button-bar">
-          <button id = "rezervisi">Rezerviši</button>
-          <button id = "otkazi"><a href="javascript:history.back()" class="linkot">Otkaži</a></button>
+          <button id = "rezervisi">Sačuvaj izmjenu</button>
+          <button id = "otkazi"><a href = "korisnički račun.html" class="linkotkazi" >Otkaži</a></button>
         </div>
 
 

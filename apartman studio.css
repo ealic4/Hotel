@@ -1,5 +1,5 @@
 #pozadina{
-    background-image: url("image/Sobastandard/soba-standard-1.jpg");
+    background-image: url("image/Apartmanstudio/apartman-studio.jpg");
     background-repeat: no-repeat;
     background-size: 100% 590px;
     width: 100%;
@@ -58,14 +58,13 @@
 .titleAS{
     color: #0071c2;
     font-size: 53px;
-    text-align: center;
+    text-align: center;    
 }
 .pomjeri{
     padding-top: 50px;
 }
-#grid1{
-   
-    margin-left: 2px;
+#margina{
+    margin-left: 1px;
 }
 body{
     margin: 0;

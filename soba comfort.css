@@ -1,5 +1,5 @@
 #pozadina{
-    background-image: url("image/Sobastandard/soba-standard-1.jpg");
+    background-image: url("image/Sobacomfort/soba-comfort-1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 590px;
     width: 100%;
@@ -63,8 +63,7 @@
 .pomjeri{
     padding-top: 50px;
 }
-#grid1{
-   
+#margin{
     margin-left: 2px;
 }
 body{

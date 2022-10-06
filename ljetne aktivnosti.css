@@ -1,0 +1,112 @@
+#naslov{
+    text-align: center;
+    color: #0071c2;
+    font-size: 53px;
+}
+#pozadina{
+    background-image: url("https://www.hotelbjelasnica.ba/wp-content/uploads/2019/02/alpsko-penjanje.png");
+    background-repeat: no-repeat;
+    background-size: 100% 590px;
+    width: 100%;
+    height: 590px;  
+    display: grid;
+    grid-template-columns: auto;
+   
+}
+.paragrafi{
+    color: white;
+    font-size: 25px;
+    padding: 15px;  
+}
+.par{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.title{
+    
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    background-color: #0071c2;  
+}
+.div{
+    height: 400px;
+    width: 600px;
+    margin-top: 140px;
+    margin-left: 100px;  
+}
+.prosvjetljenje{
+    background-color: rgba(0, 113, 194,0.9);
+    margin-top: -32px; 
+}
+#pozadina1{
+    background-image: url("https://www.hotelbjelasnica.ba/wp-content/uploads/2019/02/snowmobiling-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 590px;
+    width: 100%;
+    height: 590px;  
+    display: grid;
+    grid-template-columns: auto;
+}
+#pozadina2{
+    background-image: url("https://www.hotelbjelasnica.ba/wp-content/uploads/2019/02/rafting-hotel-bjelasnica.png");
+    background-repeat: no-repeat;
+    background-size: 1550px 590px;
+    width: 100%;
+    height: 590px;  
+    display: grid;
+    grid-template-columns: auto;
+}
+#pozadina3{
+    background-image: url("https://www.hotelbjelasnica.ba/wp-content/uploads/2019/02/kulturno-naslijedje-hotel-bjelasnica.png");
+    background-repeat: no-repeat;
+    background-size: 1550px 700px;
+    width: 100%;
+    height: 700px;  
+    display: grid;
+    grid-template-columns: auto;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+#grid1{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: min-content min-content;
+    
+}
+#grid2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto ;
+    
+}
+.boja{
+    background-color: #0071c2;
+}
+.paragraf{
+    color: #0071c2;
+    font-size: 25px;
+    padding-left: 20px;
+  
+   
+    
+}
+#pozadina1{
+    background-image: url("https://www.hotelbjelasnica.ba/wp-content/uploads/2019/02/aktivnosti-na-nebu.png");
+    background-repeat: no-repeat;
+    background-size: 1550px 590px;
+    width: 100%;
+    height: 590px;  
+   
+}
+
+body{
+    margin: 0;
+}
+.inline{
+    display: inline-flex;
+}

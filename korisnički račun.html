@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
+        <link rel="stylesheet" href="korisnički račun.css">
+        <script src="skripta_login_registracija.js"></script>
+        <title>Korisnički račun</title>
+    </head>
+
+    <body>
+        <a href="javascript:history.back()" class="link">Nazad</a><br>
+        <div id="div">
+            <br>
+            <br>
+            <label class="imekorisnika">Elvira Alić </label><br> <br>
+            <br>
+            <label class = "pogodnost">Ako izvršite više od 3 rezervacije u našem hotelu ostvarujete prvo na 20% popusta na svaku sljedeću rezervaciju!</label>
+            
+        </div>
+
+        <div class="tab">
+            <button class="tablinks button1 izmjenap" onclick="openFunction(event, 'Izmjenaprofila')">Izmjena profila</button>
+            <button class="tablinks button1" onclick="openFunction(event, 'PHR')">Pregled historije rezervacija</button>
+            <button class="tablinks button1" onclick="openFunction(event, 'Rezervacija')">Aktivne rezervacije</button>
+        </div>
+
+        <div id="Izmjenaprofila" class="tabcontent">
+            <form>
+                <input type="text" placeholder="Ime" id="ime" value="Elvira"/>
+                <input type="text" placeholder="Prezime" id="prezime" value="Alić"/>
+                <input type="email" placeholder="Email" id="email" value="ealic4@etf.unsa.ba"/>
+                <input type="password" placeholder="Lozinka" id="lozinka" values = "123456778"/>
+                <input type="text" placeholder="Broj telefona" id="brojtel" value="+38762123456" />
+                <button type="button" id="submitpromjene">Sačuvaj izmjene</button>
+            </form>
+        </div>
+        <div id="PHR" class="tabcontent">
+            <table class = "bojalinija">
+                <tr class = "bojalinija">
+                  <th class = "bojalinija">Broj odraslih<br></th>
+                  <th class = "bojalinija">Broj djece do 5 godina*</th>
+                  <th class = "bojalinija">Broj djece od 5 do 12 godina*</th>
+                  <th class = "bojalinija">Tip smještaja<br></th>
+                  <th class = "bojalinija">Datum dolaska<br></th>
+                  <th class = "bojalinija">Datum odlaska<br></th>
+                  <th class = "bojalinija">Plaćanje<br></th>
+                  <th class = "bojalinija">Napomena<br></th>
+                 
+                </tr>
+                <tr class = "bojalinija">
+                  <td class = "bojalinija">1</td>
+                  <td class = "bojalinija">0</td>
+                  <td class = "bojalinija">0</td>
+                  <td>Soba Standard</td>
+                  <td>15.09.2021</td>
+                  <td>30.10.2022</td>
+                  <td>Plaćeno</td>
+                  <td>/</td>
+               
+                </tr>
+
+
+                <tr class = "bojalinija">
+                    <td class = "bojalinija">3</td>
+                    <td class = "bojalinija">0</td>
+                    <td class = "bojalinija">0</td>
+                    <td>Apartman Studio</td>
+                    <td>15.04.2022</td>
+                    <td>30.04.2022</td>
+                    <td>Plaćeno</td>
+                    <td>/</td>
+                 
+                  </tr>
+                
+                
+              </table>
+        </div>
+
+        <div id="Rezervacija" class="tabcontent">
+            <table class = "bojalinija">
+                <tr class = "bojalinija">
+                  <th class = "centriranje">Broj odraslih<br></th>
+                  <th class = "centriranje">Broj djece do 5 godina*</th>
+                  <th class = "centriranje">Broj djece od 5 do 12 godina*</th>
+                  <th class = "centriranje">Tip smještaja<br></th>
+                  <th class = >Datum dolaska<br></th>
+                  <th class = "bojalinija">Datum odlaska<br></th>
+                  <th class = "bojalinija">Plaćanje<br></th>
+                  <th class = "bojalinija">Napomena<br></th>
+                  <th><button class="tablinks button1 dodaj"><a href="rezervacija.html" class="dodajn">Dodaj novu rezervaciju</a></button></th>
+                  <th></th>
+                </tr>
+                <tr class = "bojalinija">
+                  <td class = "bojalinija">1</td>
+                  <td class = "bojalinija">0</td>
+                  <td class = "bojalinija">0</td>
+                  <td>Apartman Studio</td>
+                  <td>27.09.2022</td>
+                  <td>02.10.2022</td>
+                  <td>Plaćeno</td>
+                  <td>Soba mora biti dovoljno osvjetljenja</td>
+                  <td ><button class="tablinks button1 iz"><a href="izmjeni rezervaciju.html" class="linkiz">Izmijeni</a></button></td>
+                <td ><button class="tablinks button1 ob" onclick="obrisi()">Obriši</button></td>
+               
+                </tr>
+                
+                
+              </table>
+  
+        </div>
+
+     
+
+        <div class="padding1"></div><a href="hotel.html" class="hlink" id="duzina3">Odjava</a>
+
+
+    </body>
+
+</html>
